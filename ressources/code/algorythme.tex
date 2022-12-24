@@ -1,0 +1,56 @@
+\setmonofont{JetBrainsMono}[
+  Contextuals={Alternate},
+  Path=./ressources/fonts/JetBrains_Mono/,
+  Extension = .ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  ItalicFont=*-Italic,
+  BoldItalicFont=*-BoldItalic
+]
+
+
+\lstdefinestyle{algorythme}{%
+    inputencoding=utf8,
+    mathescape,
+    basicstyle=\footnotesize\ttfamily,
+    numberstyle=\scriptsize\ttfamily\color{gray},
+    showstringspaces=false,
+    tabsize=5,
+    numbers=left,
+    framexleftmargin=8mm,
+    xleftmargin=8mm,
+    keepspaces=true,
+    frame=lines,
+    framerule=0pt,
+    rulecolor=\color{green!50!black},
+    backgroundcolor=\color{green!5},
+    keywords = [2]{Pour, pour, allant, Allant, Si, si, Alors, alors, Sinon, sinon, fin, Fin, début, debut, Début, Debut},
+    keywordstyle=[2]\color{blue!75},
+    morecomment=[l][commentstyle]{//},
+    commentstyle=\color{gray},
+    morecomment=[l][keywordstyle]{Algo},
+    keywordstyle=\color{red!75}\bfseries,
+    classoffset=0,
+    classoffset=1,
+    morekeywords = [3]{ecrire, écrire, Écrire},
+    keywordstyle=[3]\color{green!20!black},
+    classoffset=0,
+    morestring=[b]",
+    stringstyle=\color{green!50!black},
+    keywords= [3]{Algo, Algorythme, algo, algorythme},
+    keywordstyle=[3]\bfseries\color{red!75},
+    keywords = [4]{Début, Debut, debut, Fin, FIN, DEBUT}
+    keywordstyle = [4]\bfseries\color{blue!50}
+    literate=
+        {<-}{$\leftarrow$}{1}%
+        {->}{$\rightarrow$}{1}%
+        {<=}{$\leq$}{1}%
+        {=<}{$\leq$}{1}%
+        {=>}{$\geq$}{1}%
+        {>=}{$\geq$}{1}%
+        {--}{{{\color{blue}——}}}{1}}
+
+
+\newcommand{\algorythme}[1]{
+        \lstinputlisting[style=algorythme]{#1}
+    }

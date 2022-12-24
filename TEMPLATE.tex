@@ -1,0 +1,63 @@
+\input{ressources/init.tex}
+\input{ressources/params.tex}
+\input{ressources/informations.tex}
+
+\backgroundsetup{contents=\includegraphics{assets/logo.png}, scale=0.35, angle=0, placement=top, hshift=25cm, vshift=-0.8cm, opacity=1}
+
+
+\setkeys{Gin}{width=7.5cm}
+
+% IF right head title
+% \ohead{\rightmark}
+\cfoot{{\usekomafont{pagenumber}\large - \thepage\ -}}
+
+
+% ! additionals packages ----------┐
+% \usepackage{pdfpages}          %!|
+% \usepackage{csvsimple}         %!|
+% \usepackage{tikz}              %!|
+% \usepackage{pgfplots}          %!|
+% \usepackage{circuitikz}        %!|
+% \usepackage{subcaption}        %!|
+% \usepackage{multicol}          %!|
+% \usepackage{setspace}          %!|
+% \usepackage{amsmath}           %!|
+% \usepackage{listings}          %!|
+% \usepackage{pifont} %\ding{51} %!|
+% \usepackage{enumitem}          %!|
+%!                             %! /
+%!                            %! /
+%!                            %! \
+%!                             %! \
+%!                                 |
+%! --------------------------------┘
+
+% $ codeStyle -------------------------------┐
+% \input{ressources/code/ST.tex}          %$ |
+% \input{ressources/code/algorythme.tex}  %$ |
+%$ ------------------------------------------┘
+
+
+\setcounter{tocdepth}{2}
+% \renewcommand\thesection{\arabic{section}}
+
+% ----------------------------------------------------------------------|
+\begin{document}
+
+
+  \titlehead{{\Large Matière} \hfill 1ère Année - 2022/2023}
+  \title{TP$X$ sujet 1 \\ et sujet 2}
+  \author{\prenom \nom\\Groupe \numeroGroupe}
+  \date{\today}
+  \publishers{\universite}
+
+  \maketitle
+
+  \noindent\makebox[\linewidth]{\rule{7.5cm}{0.4pt}}
+
+  \tableofcontents
+  \newpage
+
+  % ! begin here
+
+\end{document}

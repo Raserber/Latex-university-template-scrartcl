@@ -1,0 +1,30 @@
+\documentclass[a4paper,10pt,french]{scrartcl}
+
+\usepackage{background}
+
+\usepackage{fontspec}
+\usepackage{babel}
+
+\usepackage{siunitx}
+
+\usepackage{libertine}
+
+\usepackage[
+  automark,
+  autooneside=false,% <- needed if you want to use \leftmark and \rightmark in a onesided document
+  % IF Head linewidth
+  % headsepline
+]{scrlayer-scrpage}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=blue
+}
+
+
+\pagestyle{scrheadings}
+\clearpairofpagestyles
