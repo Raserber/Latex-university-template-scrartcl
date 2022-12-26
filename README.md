@@ -18,7 +18,7 @@ LaTeX Template made by myself for my course summaries, my practical work reports
   - [1. download VSCode](#1-download-vscode)
   - [2. Install extensions](#2-install-extensions)
 - [Packages included in the Template](#packages-included-in-the-template)
-- [Custom Template environements](#custom-template-environements)
+- [Custom environements](#custom-environements)
 - [Credits](#credits)
 - [License](#license)
 
@@ -118,11 +118,22 @@ You can install these extensions as well:
 | [amsmath](https://www.ctan.org/pkg/amsmath)       | To improve the information structure and print output of your document                                                                       |
 | [listings](https://www.ctan.org/pkg/listings)     | Allows you to include code snippets with syntax highlighting                                                                                 |
 | [pifont](https://www.ctan.org/pkg/pifont)         | Allows you to add certain symbols (listed [here](https://borntocode.fr/wp-content/uploads/2015/04/Latex-listes-pifont.png)) to your document |
-| [enumitem](https://www.ctan.org/pkg/enumitem)     | Allows the user to control the layout of the three basic list environments: enumerate, itemize et description                                |
+| [enumitem](https://www.ctan.org/pkg/enumitem)     | Allows the user to control the layout of the three basic list environments: enumerate, itemize and description                                |
 | [tcolorbox](https://www.ctan.org/pkg/tcolorbox)   | Provides an environment for coloured and framed text areas with a header line                                                                |
 | [siunitx](https://www.ctan.org/pkg/siunitx)       | A comprehensive (SI) units                                                                                                                   |
 
-# Custom Template environements
+# Custom environements
+
+| Environement                  | Code                                                                            | Result |
+|-------------------------------|---------------------------------------------------------------------------------|--------|
+| Simple colorbox w/ title      | ```latex \begin{colorbox}{Title}{yellow}    Text in box \end{colorbox}  ```     |        |
+| simple colorbox without title | ```latex \begin{colorbox}{}{red}    Text in box \end{colorbox}  ```             |        |
+| definition colorblock         | ```latex \begin{definition}{Title}   Text in definition \end{definition}  ```   |        |
+| definition* colorblock        | ```latex \begin{definition*}{Title}   Text in definition \end{definition*}  ``` |        |
+| exemple colorbox              | ```latex \begin{exemple}{Title}   Text in example \end{exemple}  ```            |        |
+| exemple* colorbox             | ```latex \begin{exemple*}   Text in example \end{exemple*}  ```                 |        |
+| attention colorbox            | ```latex \begin{attention}{Title}    Text in warning box \end{attention}  ```   |        |
+| vertAlign environement        | ```latex \begin{vertAlign}    Text in vertAlign \end{vertAlign}  ```            |        |
 
 # Credits
 
