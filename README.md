@@ -124,16 +124,31 @@ You can install these extensions as well:
 
 # Custom environements
 
-| Environement                  | Code                                                                                           | Result |
-|-------------------------------|------------------------------------------------------------------------------------------------|--------|
-| Simple colorbox w/ title      | ```latex<br>\begin{colorbox}{Title}{yellow}<br>   Text in box<br>\end{colorbox}<br><br>```     |        |
-| simple colorbox without title | ```latex<br>\begin{colorbox}{}{red}<br>   Text in box<br>\end{colorbox}<br><br>```             |        |
-| definition colorblock         | ```latex<br>\begin{definition}{Title}<br>  Text in definition<br>\end{definition}<br><br>```   |        |
-| definition* colorblock        | ```latex<br>\begin{definition*}{Title}<br>  Text in definition<br>\end{definition*}<br><br>``` |        |
-| exemple colorbox              | ```latex<br>\begin{exemple}{Title}<br>  Text in example<br>\end{exemple}<br><br>```            |        |
-| exemple* colorbox             | ```latex<br>\begin{exemple*}<br>  Text in example<br>\end{exemple*}<br><br>```                 |        |
-| attention colorbox            | ```latex<br>\begin{attention}{Title}<br>   Text in warning box<br>\end{attention}<br><br>```   |        |
-| vertAlign environement        | ```latex<br>\begin{vertAlign}<br>   Text in vertAlign<br>\end{vertAlign}<br><br>```            |        |
+<table>
+<tr>
+<td> Environement </td><td> Code </td><td> Result </td>
+</tr>
+<tr>
+<td> Simple colorbox w/ title </td>
+<td>
+
+```latex
+
+\begin{colorbox}{Title}{yellow}
+
+   Text in box
+
+\end{colorbox}
+
+
+```
+</td>
+<td>
+<image src="docs/customEnvironements/definition.png" />
+</td>
+</tr>
+</table>
+
 # Credits
 
 # License
