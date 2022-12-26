@@ -144,7 +144,146 @@ You can install these extensions as well:
 ```
 </td>
 <td>
+<image src="docs/customEnvironements/colorboxwT.png" />
+</td>
+</tr>
+<tr>
+<td> simple colorbox without title </td>
+<td>
+
+```latex
+
+\begin{colorbox}{}{red}
+
+   Text in box
+
+\end{colorbox}
+
+
+```
+</td>
+<td>
+<image src="docs/customEnvironements/colorbox.png" />
+</td>
+</tr>
+<tr>
+<td> definition colorblock </td>
+<td>
+
+```latex
+
+\begin{definition}{Title}
+
+  Text in definition
+
+\end{definition}
+
+
+```
+
+</td>
+<td>
 <image src="docs/customEnvironements/definition.png" />
+</td>
+</tr>
+<tr>
+<td> definition* colorblock </td>
+<td>
+
+```latex
+
+\begin{definition*}
+
+  Text in definition
+
+\end{definition*}
+
+
+```
+
+</td>
+<td>
+<image src="docs/customEnvironements/definitionn.png" />
+</td>
+</tr>
+<tr>
+<td> exemple colorbox </td>
+<td>
+
+```latex
+
+\begin{exemple}{Title}
+
+  Text in example
+
+\end{exemple}
+
+
+```
+
+</td>
+<td>
+<image src="docs/customEnvironements/exemple.png" />
+</td>
+</tr>
+<tr>
+<td> exemple* colorbox </td>
+<td>
+
+```latex
+
+\begin{exemple*}
+
+  Text in example
+
+\end{exemple*}
+
+
+```
+
+</td>
+<td>
+<image src="docs/customEnvironements/exemplee.png" />
+</td>
+</tr>
+<tr>
+<td> attention colorblock </td>
+<td>
+
+```latex
+
+\begin{attention}{Title}
+
+   Text in warning box
+
+\end{attention}
+
+
+```
+
+</td>
+<td>
+<image src="docs/customEnvironements/attention.png" />
+</td>
+</tr>
+<tr>
+<td> vertAlign environement <i>(in a multicolumn with a lorem lipsum)</i></td>
+<td>
+
+```latex
+
+\begin{vertAlign}
+
+   Text in vertAlign
+
+\end{vertAlign}
+
+
+```
+
+</td>
+<td>
+<image src="docs/customEnvironements/vertAlign.png" />
 </td>
 </tr>
 </table>
