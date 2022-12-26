@@ -18,7 +18,6 @@ LaTeX Template made by myself for my course summaries, my practical work reports
   - [1. download VSCode](#1-download-vscode)
   - [2. Install extensions](#2-install-extensions)
 - [Packages included in the Template](#packages-included-in-the-template)
-- [Packages included in the Template](#packages-included-in-the-template-1)
 - [Custom Template environements](#custom-template-environements)
 - [Credits](#credits)
 - [License](#license)
@@ -122,8 +121,6 @@ You can install these extensions as well:
 | [enumitem](https://www.ctan.org/pkg/enumitem)     | Allows the user to control the layout of the three basic list environments: enumerate, itemize et description                                |
 | [tcolorbox](https://www.ctan.org/pkg/tcolorbox)   | Provides an environment for coloured and framed text areas with a header line                                                                |
 | [siunitx](https://www.ctan.org/pkg/siunitx)       | A comprehensive (SI) units                                                                                                                   |
-
-# Packages included in the Template
 
 # Custom Template environements
 
