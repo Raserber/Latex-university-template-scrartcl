@@ -1,0 +1,51 @@
+
+%--------------------------------------------|
+\DeclareSIUnit{\reactif}{R}
+\DeclareSIUnit{\VAR}{\volt\ampere\reactif} 
+%--------------------------------------------|
+
+
+
+% ? color boxs ---------------------------------------------------------------|
+
+\usepackage[most]{tcolorbox}
+
+
+%? Basic environnement with a title and a principal color
+
+\renewenvironment{colorbox}[2]
+  {
+    \begin{tcolorbox}[colback=#2!5!white,colframe=#2!50!black,title=#1]
+  }
+{
+  \end{tcolorbox}
+  }
+  
+
+% Environement definition with "Definition : #title", color green
+
+\newenvironment{definition}[1]
+  { \begin{colorbox}{Définiton : #1}{green} } { \end{colorbox} }
+
+  \newenvironment{definition*}[0]
+  { \begin{colorbox}{Définiton}{green} } { \end{colorbox} }
+
+
+% Environement exemple with "Exemple : #title", colr gray
+
+\newenvironment{exemple}[1]
+{ \begin{colorbox}{Exemple : #1}{gray} } { \end{colorbox} }
+
+\newenvironment{exemple*}[0]
+{ \begin{colorbox}{Exemple}{gray} } { \end{colorbox} }
+
+
+%? Environement attention with a title, color red
+
+\newenvironment{attention}[1]
+{ \begin{colorbox}{#1}{red} } { \end{colorbox} }
+% ? --------------------------------------------------------------------------|
+
+%$ Vertically Align
+
+\newenvironment{vertAlign}{\null\vfill}{\vfill\null}

@@ -1,0 +1,17 @@
+Algo calcul_PI - Exo3TP6
+
+Entrées : n (entier)
+Sortie : valeur (réel)
+Variables locales : i (entier)
+Constantes locales : /
+
+Début
+	valeur <- 0
+	pour i <- 0 à n inclus par pas de 1
+		valeur <- valeur + ((-1)^i)/(2*i+1)
+	fin pour
+	
+	valeur <- valeur*4
+Fin
+
+------------------------------------------------

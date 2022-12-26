@@ -1,0 +1,191 @@
+\input{ressources/init.tex}
+\input{ressources/params.tex}
+\input{ressources/informations.tex}
+
+% \backgroundsetup{contents=\includegraphics{assets/logo.png}, scale=0.35, angle=0, placement=top, hshift=25cm, vshift=-0.8cm, opacity=1}
+
+\backgroundsetup{contents=\includegraphics{example-image-a}, scale=0.35, angle=0, placement=top, hshift=25cm, vshift=-0.8cm, opacity=1}
+
+\setkeys{Gin}{width=7.5cm}
+
+% IF right head title wanted
+% \ohead{\rightmark}
+\cfoot{{\usekomafont{pagenumber}\large - \thepage\ -}}
+
+\usepackage{lipsum}
+
+% ! additionals packages ----------┐
+% \usepackage{pdfpages}          %!|
+% \usepackage{csvsimple}         %!|
+% \usepackage{tikz}              %!|
+% \usepackage{pgfplots}          %!|
+% \usepackage{circuitikz}        %!|
+% \usepackage{subcaption}        %!|
+% \usepackage{setspace}          %!|
+% \usepackage{amsmath}           %!|
+%!                             %! /
+%!                            %! /
+\usepackage{pifont} %\ding{51} %!|
+\usepackage{enumitem}          %!|
+\usepackage{multicol}          %!|
+\usepackage{listings}          %!|
+%!                            %! \
+%!                             %! \
+%!                                 |
+%! --------------------------------┘
+
+% $ codeStyle -------------------------------┐
+\input{ressources/code/ST.tex}          %$ |
+\input{ressources/code/algorythme.tex}  %$ |
+%$ ------------------------------------------┘
+
+
+\setcounter{tocdepth}{5}
+% \renewcommand\thesection{\arabic{section}}
+
+% ----------------------------------------------------------------------|
+\begin{document}
+
+
+  \titlehead{{\Large Mathématiques} \hfill 1$^{st}$ year - 2022/2023}
+  \title{How it's look like ? (Title)}
+  \author{\firstName\ \lastName \\Group \groupNumber}
+  \date{\today}
+  \publishers{\university}
+
+  \maketitle
+
+  \noindent\makebox[\linewidth]{\rule{7.5cm}{0.4pt}}
+
+  \tableofcontents
+  \newpage
+
+  % ! begin here
+
+  \section{Specifications}
+
+    \begin{vertAlign}
+      \begin{itemize}[label=\color{green}\ding{51}]
+
+        \Large
+        \setlength\itemsep{0.8cm}
+
+
+        \item The living room lighting is activated if a person is detected in the room and if the brightness is insufficient (\textbf{less than 100 lux}).
+
+        \item The lighting of the office (located in the bedroom) is realised from \textbf{2 push buttons}.
+
+        \item The control of the roller shutter in the living room is achieved by means of \textbf{2 push buttons "Up" and "Down"}.
+
+        \item A space heater connected to a bedroom socket can be switched off by a \textbf{push button}.
+
+        \item If the humidity is too high (\textbf{over 70 \%}), the ventilation system will be activated.
+
+        \item[\color{red}\ding{56}] {\color{gray}\textit{BONUS -}} Mathématiques of a \textbf{generalized and simultaneous extinction} of the lighting circuits.
+      \end{itemize}
+    \end{vertAlign}
+
+  
+  \newpage
+
+  \section{Answers examples}
+
+    \subsection{Colorbox examples}
+
+      \begin{colorbox}{{$y=Ce^{kx}$}}{gray}
+            
+        \begin{quote}
+          For the function $y=Ce^{kx}$ to be linear, It is necessary \textbf{to apply the function \color{red}$g(x)=\ln(x)$}
+          
+          \vspace{0.5cm}
+
+          $a_0=\ln(C)$
+
+          $a_1=k$
+
+          \begin{eqnarray*}
+            g(x) &=& a_0 + a_1 x \\
+                 &=& \ln(C) + kx \\
+          \end{eqnarray*}
+
+          \vspace{0.5cm}
+
+          There is a restriction on the values that can be taken by $C$, $k$ and $x$ to be allowed to apply this linking method. Indeed, the function $\ln(x)$ is defined on $]0:+\infty[$
+
+        \end{quote}
+      \end{colorbox}
+
+      \begin{colorbox}{}{green}
+       \textit{Colorbox without title} 
+
+       \vspace{0.5cm}
+
+       \lipsum[10]
+      \end{colorbox}
+
+      \newpage
+
+      \subsubsection{Definition color block}
+      \noindent \begin{definition}{Speed controller}
+        The speed at which the cylinder rod exits is determined by the speed at which the air is vented from the exhaust chamber. This speed is determined by the adjustable restriction on the exhaust line.
+
+
+        \begin{multicols}{2}
+          
+          \begin{vertAlign}
+            \centering \textit{The flow rate should be adjusted as close as possible to the cylinder}
+          \end{vertAlign}
+
+          \begin{vertAlign}
+            \centering \includegraphics[width=5cm]{assets/auxiVitesse.png}
+          \end{vertAlign}
+        \end{multicols}
+      \end{definition}
+      \noindent \begin{definition*}{Pythagorean Theorem \textit{Environement without argument but with "Definition" by default}}
+       
+        \begin{multicols}{2}
+          
+          \begin{vertAlign}
+            If a triangle is right-angled, the square of the length of the hypotenuse (or side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides.
+
+            \begin{equation*}
+              c=\sqrt{a^2+b^2}
+            \end{equation*}
+          \end{vertAlign}
+
+          \columnbreak
+
+          \begin{vertAlign}
+            \centering \includegraphics[width=2cm]{assets/pythagoreanTheorem.png}
+          \end{vertAlign}
+        \end{multicols}
+      \end{definition*}
+
+      \begin{colorbox}{}{green}
+        
+        \lipsum[2]{1}
+      \end{colorbox}
+
+      \newpage
+      \subsubsection{Example color block}
+
+        \noindent \begin{exemple}{Program in ST language}
+          \lstinputlisting[language=ST]{assets/StExample.txt}
+        \end{exemple}
+
+        \paragraph*{Program in ST language}
+        \noindent \begin{exemple*}
+          \lstinputlisting[language=ST]{assets/StExample.txt}
+        \end{exemple*}
+
+        \begin{colorbox}{}{green}
+          \lstinputlisting[language=algorythme, backgroundcolor=\color{green!5!white}]{assets/algoExample.txt}
+        \end{colorbox}
+
+  \section{Second section}
+
+    \subsection{blabla}
+    \subsection{blablabla}
+
+  \section{Conclusion}
+\end{document}
