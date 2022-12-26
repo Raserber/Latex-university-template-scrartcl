@@ -18,6 +18,8 @@ LaTeX Template made by myself for my course summaries, my practical work reports
   - [First: download VSCode](#first-download-vscode)
   - [Second: Install extensions](#second-install-extensions)
 - [Packages included in the Template](#packages-included-in-the-template)
+  - [Second: Install extensions](#second-install-extensions-1)
+- [Packages included in the Template](#packages-included-in-the-template-1)
 - [Custom Template environements](#custom-template-environements)
 - [Credits](#credits)
 - [License](#license)
@@ -26,7 +28,9 @@ LaTeX Template made by myself for my course summaries, my practical work reports
 
 | Custom Title Page | Simple Page Presentation |
 | :---------------: | :----------------------: |
+| :---------------: | :----------------------: |
 | [![A custom title page](docs/previewFirstPage.png)](examples/simple-example/simpleExample.pdf) | [![A basic example page](docs/previewBlock.png)](examples/simple-example/simpleExample.pdf) |
+
 
 # Want to reproduce ?
 
@@ -87,6 +91,8 @@ But I also use differents extensions to facilitate some actions like graph drawi
 
 > Download VSCode [here.](https://code.visualstudio.com/)
 
+## Second: Install extensions
+# Packages included in the Template
 ## Second: Install extensions
 # Packages included in the Template
 
