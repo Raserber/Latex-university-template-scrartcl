@@ -124,17 +124,16 @@ You can install these extensions as well:
 
 # Custom environements
 
-| Environement                  | Code                                                                            | Result |
-|-------------------------------|---------------------------------------------------------------------------------|--------|
-| Simple colorbox w/ title      | ```latex \begin{colorbox}{Title}{yellow}    Text in box \end{colorbox}  ```     |        |
-| simple colorbox without title | ```latex \begin{colorbox}{}{red}    Text in box \end{colorbox}  ```             |        |
-| definition colorblock         | ```latex \begin{definition}{Title}   Text in definition \end{definition}  ```   |        |
-| definition* colorblock        | ```latex \begin{definition*}{Title}   Text in definition \end{definition*}  ``` |        |
-| exemple colorbox              | ```latex \begin{exemple}{Title}   Text in example \end{exemple}  ```            |        |
-| exemple* colorbox             | ```latex \begin{exemple*}   Text in example \end{exemple*}  ```                 |        |
-| attention colorbox            | ```latex \begin{attention}{Title}    Text in warning box \end{attention}  ```   |        |
-| vertAlign environement        | ```latex \begin{vertAlign}    Text in vertAlign \end{vertAlign}  ```            |        |
-
+| Environement                  | Code                                                                                           | Result |
+|-------------------------------|------------------------------------------------------------------------------------------------|--------|
+| Simple colorbox w/ title      | ```latex<br>\begin{colorbox}{Title}{yellow}<br>   Text in box<br>\end{colorbox}<br><br>```     |        |
+| simple colorbox without title | ```latex<br>\begin{colorbox}{}{red}<br>   Text in box<br>\end{colorbox}<br><br>```             |        |
+| definition colorblock         | ```latex<br>\begin{definition}{Title}<br>  Text in definition<br>\end{definition}<br><br>```   |        |
+| definition* colorblock        | ```latex<br>\begin{definition*}{Title}<br>  Text in definition<br>\end{definition*}<br><br>``` |        |
+| exemple colorbox              | ```latex<br>\begin{exemple}{Title}<br>  Text in example<br>\end{exemple}<br><br>```            |        |
+| exemple* colorbox             | ```latex<br>\begin{exemple*}<br>  Text in example<br>\end{exemple*}<br><br>```                 |        |
+| attention colorbox            | ```latex<br>\begin{attention}{Title}<br>   Text in warning box<br>\end{attention}<br><br>```   |        |
+| vertAlign environement        | ```latex<br>\begin{vertAlign}<br>   Text in vertAlign<br>\end{vertAlign}<br><br>```            |        |
 # Credits
 
 # License
