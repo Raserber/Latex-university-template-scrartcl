@@ -15,10 +15,9 @@ LaTeX Template made by myself for my course summaries, my practical work reports
   - [Development environment](#development-environment)
 - [Installation guide of the Template](#installation-guide-of-the-template)
 - [How to configure VSCode to code in LaTeX](#how-to-configure-vscode-to-code-in-latex)
-  - [First: download VSCode](#first-download-vscode)
-  - [Second: Install extensions](#second-install-extensions)
+  - [1. download VSCode](#1-download-vscode)
+  - [2. Install extensions](#2-install-extensions)
 - [Packages included in the Template](#packages-included-in-the-template)
-  - [Second: Install extensions](#second-install-extensions-1)
 - [Packages included in the Template](#packages-included-in-the-template-1)
 - [Custom Template environements](#custom-template-environements)
 - [Credits](#credits)
@@ -87,13 +86,43 @@ But you still have to personalise the data :
 For my setup I use VS Code and Vim to write my documents in LaTeX.
 
 But I also use differents extensions to facilitate some actions like graph drawing with [Draw.io](https://app.diagrams.net/)
-## First: download VSCode
+## 1. download VSCode
 
 > Download VSCode [here.](https://code.visualstudio.com/)
 
-## Second: Install extensions
+## 2. Install extensions
+
+You need to install these extensions:
+
+1. [Latex Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+2. [LaTeX utilities](https://marketplace.visualstudio.com/items?itemName=tecosaur.latex-utilities)
+
+You can install these extensions as well:
+
+1. [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments): greatly simplifies the reading of comments
+2. [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio): allows you to edit image files ```.drawio.png```
+3. [Deepl for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=soerenuhrbach.vscode-deepl): to easily translate bits of text
+4. [Edit csv](https://marketplace.visualstudio.com/items?itemName=janisdd.vscode-edit-csv): to easy manipulate CSV files
+5. [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim): Vim extension for VSCode, Vim is at first complicated to use but very powerful especially for note taking
+
 # Packages included in the Template
-## Second: Install extensions
+
+| Package                                           | Description                                                                                                                                  |
+| ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [pdfpages](https://ctan.org/pkg/pdfpages)         | Allows you to include PDFs in your document                                                                                                  |
+| [csvsimple](https://ctan.org/pkg/csvsimple)       | Allows you to include CSV files in a table or put the information contained in a variable in your document                                   |
+| [tikz](https://www.ctan.org/pkg/pgf)              | Allows you to create vector graphics                                                                                                         |
+| [pgfplots](https://www.ctan.org/pkg/pgfplots)     | based on Tikz, allows to create scientific/technical graphs in a simple way                                                                  |
+| [circuitikz](https://www.ctan.org/pkg/circuitikz) | based on Tikz, for the composition of electrical circuit diagrams                                                                            |
+| [multicol](https://www.ctan.org/pkg/multicol)     | Allows you to create several columns                                                                                                         |
+| [setspace](https://www.ctan.org/pkg/setspace)     | Allows you to define the spacing between lines in a document                                                                                 |
+| [amsmath](https://www.ctan.org/pkg/amsmath)       | To improve the information structure and print output of your document                                                                       |
+| [listings](https://www.ctan.org/pkg/listings)     | Allows you to include code snippets with syntax highlighting                                                                                 |
+| [pifont](https://www.ctan.org/pkg/pifont)         | Allows you to add certain symbols (listed [here](https://borntocode.fr/wp-content/uploads/2015/04/Latex-listes-pifont.png)) to your document |
+| [enumitem](https://www.ctan.org/pkg/enumitem)     | Allows the user to control the layout of the three basic list environments: enumerate, itemize et description                                |
+| [tcolorbox](https://www.ctan.org/pkg/tcolorbox)   | Provides an environment for coloured and framed text areas with a header line                                                                |
+| [siunitx](https://www.ctan.org/pkg/siunitx)       | A comprehensive (SI) units                                                                                                                   |
+
 # Packages included in the Template
 
 # Custom Template environements
