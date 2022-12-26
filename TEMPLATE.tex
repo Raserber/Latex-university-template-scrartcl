@@ -1,13 +1,25 @@
 \input{ressources/init.tex}
 \input{ressources/params.tex}
-\input{ressources/informations.tex}
 
+% ? Default values
+\newcommand{\firstName}{John}
+\newcommand{\lastName}{DOE}
+\newcommand{\groupNumber}{1}
+\newcommand{\university}{My university}
+
+% ? Non-committal personal file
+% ? does not make an error if no "informations.tex" exists
+\makeatletter
+\@input{ressources/informations.tex}
+\makeatother
+
+% ? logo displayed on the top right
 \backgroundsetup{contents=\includegraphics{assets/logo.png}, scale=0.35, angle=0, placement=top, hshift=25cm, vshift=-0.8cm, opacity=1}
 
-
+% ? Default image width
 \setkeys{Gin}{width=7.5cm}
 
-% IF right head title
+% ? If you want a title on the top right
 % \ohead{\rightmark}
 \cfoot{{\usekomafont{pagenumber}\large - \thepage\ -}}
 
@@ -38,8 +50,10 @@
 %$ ------------------------------------------┘
 
 
+% ? Sections depth displayed in the TOC
 \setcounter{tocdepth}{2}
 % \renewcommand\thesection{\arabic{section}}
+
 
 % ----------------------------------------------------------------------|
 \begin{document}
@@ -47,9 +61,9 @@
 
   \titlehead{{\Large Matière} \hfill 1ère Année - 2022/2023}
   \title{TP$X$ sujet 1 \\ et sujet 2}
-  \author{\prenom \nom\\Groupe \numeroGroupe}
+  \author{\firstName\ \lastName\\Groupe \groupNumber}
   \date{\today}
-  \publishers{\universite}
+  \publishers{\university}
 
   \maketitle
 
