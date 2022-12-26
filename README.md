@@ -19,8 +19,7 @@ LaTeX Template made by myself for my course summaries, my practical work reports
   - [2. Install extensions](#2-install-extensions)
 - [Packages included in the Template](#packages-included-in-the-template)
 - [Custom environements](#custom-environements)
-- [Credits](#credits)
-- [License](#license)
+- [Further reading](#further-reading)
 
 # Preview
 
@@ -55,6 +54,8 @@ You can use differents IDE for Latex :
 - You can use [TeXStudio](https://www.texstudio.org/). TeXstudio is an integrated writing environment made for creating LaTeX documents.
 > TeXStudio is a ready-to-use editor for LaTeX that makes it easy to get started.
 
+- You can use [Overleaf](https://www.overleaf.com/). Overleaf is an online editor for writing documents in LaTeX with free and prenium plan.
+> Overleaf is easy *(and ready directly after the account creation)* to use, online, collaborative LaTeX editor
 - You can use [Vim](https://www.vim.org/). Vim is a highly configurable text editor.
 > Vim is difficult to use for begginner and not recommended for the uninitiated 
 > 
@@ -63,7 +64,7 @@ You can use differents IDE for Latex :
 - You can use [Visual Studio Code](https://code.visualstudio.com/). Visual Studio Code is an extensible code editor developed by Microsoft.
 > **This is the solution I am developing in the ["How-to configure VSCode for LaTeX"](#how-to-configure-vscode-to-code-in-latex)**
 
-- And finally : Feel free to choose you own workflow, you can find many guides to take notes and other with LaTeX on the internet.
+- And finally : **Feel free to choose you own workflow**. I made a [little list of over (very) good workflow](#further-reading)
 # Installation guide of the Template
 
 ![Git Clone](docs/carbonInstallation.png)
@@ -136,11 +137,9 @@ You can install these extensions as well:
 
 \begin{colorbox}{Title}{yellow}
 
-   Text in box
+   \lipsum[1][1-15]
 
 \end{colorbox}
-
-
 ```
 </td>
 <td>
@@ -155,11 +154,9 @@ You can install these extensions as well:
 
 \begin{colorbox}{}{red}
 
-   Text in box
+   \lipsum[1][1-15]
 
 \end{colorbox}
-
-
 ```
 </td>
 <td>
@@ -174,11 +171,9 @@ You can install these extensions as well:
 
 \begin{definition}{Title}
 
-  Text in definition
+  \lipsum[1][1-15]
 
 \end{definition}
-
-
 ```
 
 </td>
@@ -194,11 +189,9 @@ You can install these extensions as well:
 
 \begin{definition*}
 
-  Text in definition
+  \lipsum[1][1-15]
 
 \end{definition*}
-
-
 ```
 
 </td>
@@ -214,11 +207,9 @@ You can install these extensions as well:
 
 \begin{exemple}{Title}
 
-  Text in example
+  \lipsum[1][1-15]
 
 \end{exemple}
-
-
 ```
 
 </td>
@@ -234,13 +225,10 @@ You can install these extensions as well:
 
 \begin{exemple*}
 
-  Text in example
+  \lipsum[1][1-15]
 
 \end{exemple*}
-
-
 ```
-
 </td>
 <td>
 <image src="docs/customEnvironements/exemplee.png" />
@@ -254,13 +242,10 @@ You can install these extensions as well:
 
 \begin{attention}{Title}
 
-   Text in warning box
+   \lipsum[1][1-15]
 
 \end{attention}
-
-
 ```
-
 </td>
 <td>
 <image src="docs/customEnvironements/attention.png" />
@@ -277,8 +262,6 @@ You can install these extensions as well:
    Text in vertAlign
 
 \end{vertAlign}
-
-
 ```
 
 </td>
@@ -288,6 +271,8 @@ You can install these extensions as well:
 </tr>
 </table>
 
-# Credits
+# Further reading
 
-# License
+- ["Taking My University Course Computer Science Notes in LaTeX"](https://betterprogramming.pub/taking-my-university-course-computer-science-notes-in-latex-7565875fdde7) written by Dominik Tarnowski
+- ["Writing LaTeX Documents In Visual Studio Code With LaTeX Workshop"](https://medium.com/@rcpassos/writing-latex-documents-in-visual-studio-code-with-latex-workshop-d9af6a6b2815) written by Rafael "Auyer" Passos
+- ["How I'm able to take notes in mathematics lectures using LaTeX and Vim"](https://castel.dev/post/lecture-notes-1/) written by Gilles Castel
