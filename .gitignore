@@ -6,4 +6,7 @@
 *.pdf
 informations.tex
 assets/logo.png
+*.fls
 *.*~
+*.xdv
+*.fdb_latexmk
