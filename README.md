@@ -69,9 +69,14 @@ You can use differents IDE for Latex :
 
 ![Git Clone](docs/carbonInstallation.png)
 
-Then you can build the template directly without errors!
+:warning:**You need to compile with XeLaTeX**
 
-But you still have to personalise the data :
+Then you can *almost* build the template directly without errors!
+
+*If you have some errors look at the .log file*
+
+
+But you still have to customize the data :
 
 1. Add a ```./assets/logo.png``` for you own logo and repositionning correctly it at the line ```17``` by changing the values of ```hshift=``` and ```vshift=```
 > ![backgroundsetup ligne 17](docs/logoCarbon.png)
