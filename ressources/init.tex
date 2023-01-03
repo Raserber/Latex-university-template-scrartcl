@@ -9,6 +9,9 @@
 
 \usepackage{libertine}
 
+\usepackage{import}
+\usepackage{transparent}
+
 \usepackage[
   automark,
   autooneside=false,% <- needed if you want to use \leftmark and \rightmark in a onesided document
@@ -29,3 +32,8 @@
 \clearpairofpagestyles
 
 \graphicspath{{./assets/}}
+
+\newcommand{\incfig}[2][1]{%
+    \def\svgwidth{#1\columnwidth}
+    \import{./figures/}{#2.pdf_tex}
+}
