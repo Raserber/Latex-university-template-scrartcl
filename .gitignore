@@ -3,7 +3,7 @@
 *.gz
 *.out
 *.toc
-*.pdf
+/*.pdf
 informations.tex
 assets/logo.png
 *.fls
