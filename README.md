@@ -25,7 +25,6 @@ LaTeX Template made by myself for my course summaries, my practical work reports
 
 | Custom Title Page | Simple Page Presentation |
 | :---------------: | :----------------------: |
-| :---------------: | :----------------------: |
 | [![A custom title page](docs/previewFirstPage.png)](examples/simple-example/simpleExample.pdf) | [![A basic example page](docs/previewBlock.png)](examples/simple-example/simpleExample.pdf) |
 
 
@@ -57,7 +56,7 @@ You can use differents IDE for Latex :
 - You can use [Overleaf](https://www.overleaf.com/). Overleaf is an online editor for writing documents in LaTeX with free and prenium plan.
 > Overleaf is easy *(and ready directly after the account creation)* to use, online, collaborative LaTeX editor
 - You can use [Vim](https://www.vim.org/). Vim is a highly configurable text editor.
-> Vim is difficult to use for begginner and not recommended for the uninitiated 
+> Vim is difficult to use for begginner but very powerful and the vim basis can be use in a modern IDE
 > 
 > **but you can read [this guide](https://medium.com/rahasak/vim-as-my-latex-editor-f0c5d60c66fa)**
 
@@ -65,6 +64,8 @@ You can use differents IDE for Latex :
 > **This is the solution I am developing in the ["How-to configure VSCode for LaTeX"](#how-to-configure-vscode-to-code-in-latex)**
 
 - And finally : **Feel free to choose you own workflow**. I made a [little list of over (very) good workflow](#further-reading)
+
+
 # Installation guide of the Template
 
 ![Git Clone](docs/carbonInstallation.png)
